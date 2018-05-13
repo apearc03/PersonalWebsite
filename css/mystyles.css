@@ -1,0 +1,16 @@
+.navbar-dark {
+    background-color: #3399ff;  
+}
+
+
+
+.nav-item a:hover, .nav-item a:focus, .nav-item a:active { 
+    background-color:#00ccff !important;
+    border-radius: 10px;
+}
+
+
+.navbar-nav li > a{
+  color: white !important;
+}
+
