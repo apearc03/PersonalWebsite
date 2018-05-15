@@ -1,7 +1,7 @@
+
 .navbar-dark {
     background-color: #3399ff;  
 }
-
 
 
 .nav-item a:hover, .nav-item a:focus, .nav-item a:active { 
@@ -14,3 +14,25 @@
   color: white !important;
 }
 
+
+/*
+Change css padding to percentage after testing on phone.
+*/
+#intro{
+	margin-top: 150px;
+	padding-left: 10%;
+	padding-right: 5%;
+
+}
+
+
+#me{
+	margin-top:150px;
+	border-radius: 25%;
+}
+
+#bottom{
+	padding-top:1%;
+	padding-bottom:1%;
+	text-align: center;
+}

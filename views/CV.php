@@ -12,7 +12,7 @@
    <body>
    	 <script>
    	 	$(document).ready(function() {
-	 		focusLink("#CV");
+	 		$("#CV").css({"background-color": "#00ccff", "border-radius": "10px"});
 	 	});
 	 </script>
 
