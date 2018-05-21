@@ -36,3 +36,19 @@ Change css padding to percentage after testing on phone.
 	padding-bottom:1%;
 	text-align: center;
 }
+
+#welcome{
+	opacity: 0;
+}
+
+.project{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+.vid{
+	padding-bottom: 10px;
+}
