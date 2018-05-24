@@ -49,6 +49,11 @@ Change css padding to percentage after testing on phone.
 
 }
 
+
+.features{
+	padding-top:15px;
+}
+
 .vid{
 	padding-bottom: 10px;
 }

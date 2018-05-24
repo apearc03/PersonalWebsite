@@ -21,18 +21,34 @@
 	  ?>
 
 
-	 <!-- replace images with gif animations of projects -->
 		
-
-	 <div class="container-fluid col-12 project">
-	 		      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-	 </div>
 
 	  <div class="container-fluid project">
 		  <div class="row">
 		    <div class="col-6">
-		    	<h2>Pong</h2> 
-			      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		    	<h2>Pong</h2>
+		    	
+		    	<p>My implementation of the classic arcade game, <a href = "https://en.wikipedia.org/wiki/Pong">Pong</a>.</p>
+		    	
+				<p><strong>Built with:</strong></p>
+		    	 <ul class="list-group">
+		    	 	<li>
+			      		Java.
+			      	</li>
+			      	<li>
+			      		<a href= "https://libgdx.badlogicgames.com/">LibGDX</a> Java game development framework.
+			      	</li>
+			      </ul>
+			     <p class = "features"><strong>Features:</strong></p>
+			     <ul class="list-group">
+		    	 	<li>
+			      		Settings for volume, controls, resolution and difficulty.
+			      	</li>
+			      	<li>
+			      		Music, sounds and artwork.
+			      	</li>
+			      </ul>
+			     	
 		    </div>
 			<div class="col-6">
 				 	<video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
@@ -54,7 +70,26 @@
 		  <div class="row">
 		    <div class="col-6">
 		    	<h2>Conway's game of life</h2> 
-			      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			      <p>I recreated <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life<a>.</p>
+		    	
+				<p><strong>Built with:</strong></p>
+		    	 <ul class="list-group">
+		    	 	<li>
+			      		Java.
+			      	</li>
+			      	<li>
+			      		<a href= "https://libgdx.badlogicgames.com/">LibGDX</a> Java game development framework.
+			      	</li>
+			      </ul>
+			     <p class = "features"><strong>Features:</strong></p>
+			     <ul class="list-group">
+		    	 	<li>
+			      		Cell and board size customization.
+			      	</li>
+			      	<li>
+			      		Controls for starting, stopping and resetting the game board.
+			      	</li>
+			      </ul>
 		    </div>
 		    <div class="col-6">
 		      <video class="embed-responsive vid" width="400" height="400" muted autoplay loop>
@@ -75,7 +110,29 @@
 		  <div class="row">
 		    <div class="col-6">
 		    	<h2>alexpearce.me</h2> 
-			      Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			      <p>A personal website to showcase information about myself. </p>
+			      	<p><strong>Built with:</strong></p>
+		    	 <ul class="list-group">
+		    	 	<li>
+			      		HTML/CSS/Javascript.
+			      	</li>
+		    	 	<li>
+			      		PHP.
+			      	</li>
+			      	<li>
+			      		<a href= "https://getbootstrap.com/">Bootstrap</a>. A front end library for building responsive websites. 
+			      	</li>
+
+			      </ul>
+			     <p class = "features"><strong>Features:</strong></p>
+			     <ul class="list-group">
+		    	 	<li>
+			      		Responsive design.
+			      	</li>
+			      	<li>
+			      		Mobile friendly. TO BE CONFIRMED
+			      	</li>
+			      </ul>
 		    </div>
 		    <div class="col-6">
 		      <video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
