@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../templates/includes.html");
+	     require("../static/includes.html");
 	    ?>
 	      
    </head>
@@ -25,7 +25,7 @@
 
 
    	 <?php
-	    require("../templates/navBar.html");
+	    require("../static/navBar.html");
 	  ?>
 
 
@@ -53,7 +53,7 @@
 
 	
 	<?php
-	    require("../templates/footerBar.html");
+	    require("../static/footerBar.html");
 	  ?>
 
       

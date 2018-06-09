@@ -75,7 +75,7 @@ ABOUT PAGE
 EDUCATION PAGE
 */
 
-.education{
+#bsc{
 	padding-top: 150px;
 	padding-bottom: 100px;
 	padding-left: 10%;
@@ -83,6 +83,12 @@ EDUCATION PAGE
 
 }
 
+#gcseBlock{
+	padding-top: 75px;
+	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
 
 
 .years{
@@ -107,5 +113,8 @@ EDUCATION PAGE
 	padding:50px;
 }
 
+#bscProject{
+	padding-top:25px;
+}
 
 /*Work History */

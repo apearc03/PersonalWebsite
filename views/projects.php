@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../templates/includes.html");
+	     require("../static/includes.html");
 	    ?>
 	      
    </head>
@@ -17,7 +17,7 @@
 	 </script>
 
     <?php
-	    require("../templates/navBar.html");
+	    require("../static/navBar.html");
 	  ?>
 
 
@@ -25,11 +25,11 @@
 
 	  <div class="container-fluid project">
 		  <div class="row projectSegment">
-		    <div class="col-6">
+		    <div class="col-sm-6">
 		    	<h2>Pong</h2>
 		    	
 		    	<p>My implementation of the classic arcade game, <a href = "https://en.wikipedia.org/wiki/Pong">Pong</a>.</p>
-		    	
+		    	<p>This is a trimmed version of my <a href = "https://github.com/apearc03/pongProject-w-DB-connectivity" alt = "bscProj">BSc project</a>.</p>
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
 		    	 	<li>
@@ -50,14 +50,14 @@
 			      </ul>
 			     	
 		    </div>
-			<div class="col-6">
+			<div class="col-sm-6">
 				 	<video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
 					  <source src="../videos/pongLoop.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 					</video>
 		         <div class="row">
 		         	<div class="mx-auto">
-			      		<a class="btn btn-primary" href="../apps/PongLIBGDX.jar" role="button" download>Download Jar</a>
+			      		<a class="btn btn-primary" href="../downloads/PongLIBGDX.jar" role="button" download>Download Jar</a>
 						<a class="btn btn-success" href="https://github.com/apearc03/pongDesktop" role="button">Github</a>
 					</div>
 		     	 </div>
@@ -68,10 +68,10 @@
 
 		 <div class="container-fluid project">
 		  <div class="row projectSegment">
-		    <div class="col-6">
+		    <div class="col-sm-6">
 		    	<h2>Conway's game of life</h2> 
 			      <p>I re-created <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life<a>.</p>
-		    	
+		    		<p>The program uses an algorithm which only tests active cell state rather than the entire board of cells. This leads to high performance, even with small cell sizes.</p>
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
 		    	 	<li>
@@ -84,21 +84,27 @@
 			     <p class = "features"><strong>Features:</strong></p>
 			     <ul class="list-group">
 		    	 	<li>
-			      		Cell and board size customization.
+			      		Cell size customization. Test different Cell width and height combinations.
 			      	</li>
 			      	<li>
 			      		Controls for starting, stopping and resetting the game board.
 			      	</li>
+			      	<li>
+			      		Pattern automater. Select patterns to be added to the board.
+			      	</li>
+			      	<li>
+			      		Living cell counter.
+			      	</li>
 			      </ul>
 		    </div>
-		    <div class="col-6">
+		    <div class="col-sm-6">
 		      <video class="embed-responsive vid" width="400" height="400" muted autoplay loop>
 					  <source src="../videos/conwayLoop.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 					</video>
 		         <div class="row">
 		      		<div class="mx-auto">
-			      		<a class="btn btn-primary" href="../apps/GameOfLife.jar" role="button" download>Download Jar</a>
+			      		<a class="btn btn-primary" href="../downloads/GameOfLife.jar" role="button" download>Download Jar</a>
 						<a class="btn btn-success" href="https://github.com/apearc03/GameOfLife" role="button">Github</a>
 					</div>
 		      </div>
@@ -108,7 +114,7 @@
 
 		 <div class="container-fluid project">
 		  <div class="row projectSegment">
-		    <div class="col-6">
+		    <div class="col-sm-6">
 		    	<h2>alexpearce.me</h2> 
 			      <p>A personal website to showcase information about myself. </p>
 			      	<p><strong>Built with:</strong></p>
@@ -137,7 +143,7 @@
 			      	</li>
 			      </ul>
 		    </div>
-		    <div class="col-6">
+		    <div class="col-sm-6">
 		      <video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
 					  <source src="../videos/pongLoop.mp4" type="video/mp4">
 					Your browser does not support the video tag.

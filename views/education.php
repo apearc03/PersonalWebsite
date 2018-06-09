@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../templates/includes.html");
+	     require("../static/includes.html");
 	    ?>
 	      
    </head>
@@ -17,15 +17,15 @@
 	 </script>
 
     <?php
-	    require("../templates/navBar.html");
+	    require("../static/navBar.html");
 	  ?>
 
 
 		
-	  <div class="container-fluid education">
+	  <div class="container-fluid" id = "bsc">
 		  			<div class = "col-lg">
 		  				<h2>BSc Computing</h2>
-					    <p> I recently graduated from <a href = "http://www.bbk.ac.uk/" alt = "bbk">Birkbeck, University of London</a> with a MARK HERE in a Computing BSc. </p>
+					    <p> I recently graduated from <a href = "http://www.bbk.ac.uk/" alt = "bbk">Birkbeck, University of London</a> with a MARK HERE in their Computing BSc. </p>
 					    <p> I really enjoyed the course at Birkbeck, the content was very interesting and also challenging. The lecturers provided a great learning experience throughout the 4 years of study. I have definitely come away from the degree with a lot of useful knowledge and practical experience.
 						 <p> 
 					    <p>	
@@ -122,11 +122,15 @@
 				      	</li>
 			      </ul>
 			    </div>
-
+			</div>
+			<div class = "col-lg" id = "bscProject">
+					    <p>For my BSc computing project I built my own version of Pong in Java. The application included multiple screens, Android compatibility, database connectivity for high scores and a balanced AI player.</p>
+					    <p> View the code on GitHub <a href = "https://github.com/apearc03/pongProject-w-DB-connectivity" alt = "pongProject">here</a>.</p>
+					    <p> Download the final written report in PDF <a href = "../downloads/Final Year Project-AlexPearce.pdf" alt = "writtenReport" download>here</a>.</p>
 			</div>
 		</div>
 	  
-		<div class="container-fluid education">
+		<div class="container-fluid" id = "gcseBlock">
 		  			<div class = "col-lg GCSEs">
 		  				<h2>10 A-C GCSEs</h2>
 					    <p>
