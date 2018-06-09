@@ -1,11 +1,11 @@
 
 .navbar-dark {
-    background-color: #3399ff;  
+    background-color: #1e1e82;  
 }
 
 
 .nav-item a:hover, .nav-item a:focus, .nav-item a:active { 
-    background-color:#00ccff !important;
+    background-color:#0762f1 !important;
     border-radius: 10px;
 }
 
@@ -16,7 +16,7 @@
 
 
 /*
-Change css padding to percentage after testing on phone.
+ABOUT PAGE
 */
 #intro{
 	margin-top: 150px;
@@ -41,6 +41,8 @@ Change css padding to percentage after testing on phone.
 	opacity: 0;
 }
 
+
+/* PROJECT PAGE */
 .project{
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -55,5 +57,55 @@ Change css padding to percentage after testing on phone.
 }
 
 .vid{
-	padding-bottom: 10px;
+	margin-top: 40px;
+	margin-bottom: 10px;
 }
+
+.projectSegment{
+	background-color: #dbdbdb;
+	padding: 50px;
+}
+
+.footImg{
+	padding-left:5px; 
+	padding-right:5px;
+	border-radius: 20%;
+}
+/*
+EDUCATION PAGE
+*/
+
+.education{
+	padding-top: 150px;
+	padding-bottom: 100px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+
+
+.years{
+	background-color: #dbdbdb;
+	padding: 25px 25px 50px 40px;
+	margin-right: 75px;
+	margin-top: 10px;
+}
+
+.module{
+	padding-top: 20px;
+}
+
+
+.rowAdjustment{
+	padding-left:30px;
+}
+
+.GCSEs{
+	
+	background-color:#dbdbdb;
+	padding:50px;
+}
+
+
+/*Work History */

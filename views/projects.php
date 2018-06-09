@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../templates/header.html");
+	     require("../templates/includes.html");
 	    ?>
 	      
    </head>
@@ -12,7 +12,7 @@
    <body>
    	 <script>
    	 	$(document).ready(function() {
-	 		$("#projects").css({"background-color": "#00ccff", "border-radius": "10px"});
+   	 		navBarInit("#projects");
 	 	});
 	 </script>
 
@@ -24,7 +24,7 @@
 		
 
 	  <div class="container-fluid project">
-		  <div class="row">
+		  <div class="row projectSegment">
 		    <div class="col-6">
 		    	<h2>Pong</h2>
 		    	
@@ -57,8 +57,8 @@
 					</video>
 		         <div class="row">
 		         	<div class="mx-auto">
-			      		<a class="btn btn-primary" href="#" role="button">Download Jar</a>
-						<a class="btn btn-success" href="#" role="button">Github</a>
+			      		<a class="btn btn-primary" href="../apps/PongLIBGDX.jar" role="button" download>Download Jar</a>
+						<a class="btn btn-success" href="https://github.com/apearc03/pongDesktop" role="button">Github</a>
 					</div>
 		     	 </div>
 		    </div>
@@ -67,10 +67,10 @@
 
 
 		 <div class="container-fluid project">
-		  <div class="row">
+		  <div class="row projectSegment">
 		    <div class="col-6">
 		    	<h2>Conway's game of life</h2> 
-			      <p>I recreated <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life<a>.</p>
+			      <p>I re-created <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life<a>.</p>
 		    	
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
@@ -98,8 +98,8 @@
 					</video>
 		         <div class="row">
 		      		<div class="mx-auto">
-			      		<a class="btn btn-primary" href="#" role="button">Download Jar</a>
-						<a class="btn btn-success" href="#" role="button">Github</a>
+			      		<a class="btn btn-primary" href="../apps/GameOfLife.jar" role="button" download>Download Jar</a>
+						<a class="btn btn-success" href="https://github.com/apearc03/GameOfLife" role="button">Github</a>
 					</div>
 		      </div>
 		    </div>
@@ -107,14 +107,17 @@
 		</div>
 
 		 <div class="container-fluid project">
-		  <div class="row">
+		  <div class="row projectSegment">
 		    <div class="col-6">
 		    	<h2>alexpearce.me</h2> 
 			      <p>A personal website to showcase information about myself. </p>
 			      	<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
 		    	 	<li>
-			      		HTML/CSS/Javascript.
+			      		HTML/CSS.
+			      	</li>
+			      	<li>
+			      		Javascript.
 			      	</li>
 		    	 	<li>
 			      		PHP.
@@ -141,7 +144,7 @@
 					</video>
 		   		    <div class="row">
 		      		<div class="mx-auto">
-						<a class="btn btn-success" href="#" role="button">Github</a>
+						<a class="btn btn-success" href="https://github.com/apearc03/PersonalWebsite" role="button">Github</a>
 					</div>
 		      </div>
 		    </div>

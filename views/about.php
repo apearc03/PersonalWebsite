@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../templates/header.html");
+	     require("../templates/includes.html");
 	    ?>
 	      
    </head>
@@ -16,7 +16,7 @@
 
 	 <script>
    	 	$(document).ready(function() {
-			$("#about").css({"background-color": "#00ccff", "border-radius": "10px"});
+			navBarInit("#about");
 			$("#welcome").animate({'opacity':1},1500);
 	 	});
 	 </script>
