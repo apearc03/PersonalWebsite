@@ -36,7 +36,7 @@
 			      		Java.
 			      	</li>
 			      	<li>
-			      		<a href= "https://libgdx.badlogicgames.com/">LibGDX</a> Java game development framework.
+			      		<a href= "https://libgdx.badlogicgames.com/">LibGDX</a>.
 			      	</li>
 			      </ul>
 			     <p class = "features"><strong>Features:</strong></p>
@@ -71,14 +71,14 @@
 		    <div class="col-sm-6">
 		    	<h2>Conway's game of life</h2> 
 			      <p>I re-created <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life<a>.</p>
-		    		<p>The program uses an algorithm which only tests active cell state rather than the entire board of cells. This leads to high performance, even with small cell sizes.</p>
+		    		<p>The program uses an algorithm which only tests active cell state rather than the entire board. This, along with selective rendering leads to high performance.</p>
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
 		    	 	<li>
 			      		Java.
 			      	</li>
 			      	<li>
-			      		<a href= "https://libgdx.badlogicgames.com/">LibGDX</a> Java game development framework.
+			      		<a href= "https://libgdx.badlogicgames.com/">LibGDX</a>.
 			      	</li>
 			      </ul>
 			     <p class = "features"><strong>Features:</strong></p>
@@ -99,12 +99,12 @@
 		    </div>
 		    <div class="col-sm-6">
 		      <video class="embed-responsive vid" width="400" height="400" muted autoplay loop>
-					  <source src="../videos/conwayLoop.mp4" type="video/mp4">
+					  <source src="../videos/conwayV2.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 					</video>
 		         <div class="row">
 		      		<div class="mx-auto">
-			      		<a class="btn btn-primary" href="../downloads/GameOfLife.jar" role="button" download>Download Jar</a>
+			      		<a class="btn btn-primary" href="../downloads/GameOfLifeV2.jar" role="button" download>Download Jar</a>
 						<a class="btn btn-success" href="https://github.com/apearc03/GameOfLife" role="button">Github</a>
 					</div>
 		      </div>
@@ -129,7 +129,7 @@
 			      		PHP.
 			      	</li>
 			      	<li>
-			      		<a href= "https://getbootstrap.com/">Bootstrap</a>. A front end library for building responsive websites. 
+			      		<a href= "https://getbootstrap.com/">Bootstrap</a>.
 			      	</li>
 
 			      </ul>
@@ -144,15 +144,13 @@
 			      </ul>
 		    </div>
 		    <div class="col-sm-6">
-		      <video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
-					  <source src="../videos/pongLoop.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-					</video>
+		    		<img src = "../images/aboutPic.png"  class="img-fluid vid" width="700" height="400" alt="aboutPic">
+		     	
 		   		    <div class="row">
-		      		<div class="mx-auto">
-						<a class="btn btn-success" href="https://github.com/apearc03/PersonalWebsite" role="button">Github</a>
-					</div>
-		      </div>
+			      		<div class="mx-auto">
+							<a class="btn btn-success" href="https://github.com/apearc03/PersonalWebsite" role="button">Github</a>
+						</div>
+		     		 </div>
 		    </div>
 		  </div>
 		</div>
