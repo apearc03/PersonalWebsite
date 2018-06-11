@@ -92,7 +92,8 @@
 	   		<div class = "col-6">
 	   				<h1 class = "heading">Screwfix</h1>
 	   				<p>I currently work at Screwfix, Bath, as a counter assistant. I have various duties including warehouse organisation and assisting customers with plumbing, electrical and DIY purchases.</p>
-					<p>Download my C.V. <a href = "" alt = "CV">here</a>.</p>
+					<!-- TO DO
+						<p>Download my C.V. <a href = "" alt = "CV">here</a>.</p>-->
 	   			</div>
 	   			<div class = "col-2">
 			   	</div>

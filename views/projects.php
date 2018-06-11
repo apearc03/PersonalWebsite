@@ -138,9 +138,6 @@
 		    	 	<li>
 			      		Responsive design.
 			      	</li>
-			      	<li>
-			      		Mobile friendly. TO BE CONFIRMED
-			      	</li>
 			      </ul>
 		    </div>
 		    <div class="col-sm-6">

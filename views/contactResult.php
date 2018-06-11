@@ -18,17 +18,19 @@
                    $headers = 'From: ' . $name . ' <' . $email . '>' . "\r\n" .'Reply-To: ' . $email . "\r\n";
 
                    if(mail($to, $subject, $message,$headers)){
-                      echo "Email worked";
-                      //include html for success
+                      //echo "Email worked";
+                      $result = "Thank you for your email.";
+                      include("result.php");
+                      
                    }
                    else{
-                      echo "Email failed";
-                      //include html for failure
-                      //include link to go back to contact page
+                      //echo "Email failed";
+                      $result = "Email failed to send.";
+                      include("result.php");
                     }
                 }
                 else{
-                    echo "Empty values after validation";
+                    echo "Somehow the values are empty after validation.";
                 }
 
 
@@ -37,6 +39,12 @@
        
 
     }
+    else{
+        $result = "";
+        include("result.php");
+    }
+
+
 
     function validate($formData){
           $formData = trim($formData);

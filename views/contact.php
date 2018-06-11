@@ -30,11 +30,11 @@
 	   <div class="container-fluid" id = "contactForm">
 
 			<h1 id = "contactMe">Contact me</h1>
-			  <form class="form-horizontal" role="form" method="post" action="form">
+			  <form class="form-horizontal" role="form" method="post" action="contactResult">
 					<div class="form-group">
 						<label for="name" class="col-sm-2 control-label">Name</label>
 						<div class="col-sm-10">
-							<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="" required>
+							<input type="text" class="form-control" id="name" name="name" placeholder="" value="" required>
 						</div>
 					</div>
 					<div class="form-group">
