@@ -84,7 +84,7 @@
 			     <p class = "features"><strong>Features:</strong></p>
 			     <ul class="list-group">
 		    	 	<li>
-			      		Cell size customization. Test different Cell width and height combinations.
+			      		Cell size customization. Test different cell width and height combinations.
 			      	</li>
 			      	<li>
 			      		Controls for starting, stopping and resetting the game board.

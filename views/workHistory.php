@@ -63,7 +63,7 @@
 
 			     		<p>This data was based upon the team's chargeable/non chargeable hours, type of clients and the services they were providing. The resulting dashboard made trends clear such as which team members were meeting chargeable hour targets and how the team's resources were being spent.</p>
 
-			     		<p>During the internship I also had the opportunity to travel and work with clients. I joined the controls assurance team to take part in IT controls testing for <a href = "https://www.omega-pharma.com/en" alt = "omega">Omega Pharma</a>, a sub division of <a href = "https://www.perrigouk.co.uk/default.aspx" alt = "Perri">Perrigo</a>. This project involved regular communication with clients, meeting deadlines and working heavily with Aura Audit Software to assess the companies control protocols.</p>
+			     		<p>During the internship I also had the opportunity to travel and work with clients. I joined the controls assurance team to carry out IT controls testing for <a href = "https://www.omega-pharma.com/en" alt = "omega">Omega Pharma</a>, a sub division of <a href = "https://www.perrigouk.co.uk/default.aspx" alt = "Perri">Perrigo</a>. This project involved regular communication with clients, meeting deadlines and working heavily with Aura Audit Software to assess the companies control protocols.</p>
 			     		<p>Towards the end of the internship I was able to receive some valuable feedback on my time there.</p>
 			     		
 			     			
