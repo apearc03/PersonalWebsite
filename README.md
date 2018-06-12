@@ -1,3 +1,3 @@
-# <a href ="alexpearce.info" alt = "website">alexpearce.info</a>
+# alexpearce.info
 
 I built this website to showcase some of my experiences and projects.
