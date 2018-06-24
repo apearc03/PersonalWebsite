@@ -25,7 +25,7 @@
 		    <div class="col-sm-6">
 		    	<h2>Multiplayer Tank Arena</h2>
 		    	
-		    	<p>I created a 2D multiplayer browser game. Players control a tank to shoot and move within an arena.</p>
+		    	<p>I made a 2D multiplayer browser game. Players control a tank to shoot and move within an arena.</p>
 
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">

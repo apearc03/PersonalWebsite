@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../static/includes.html");
+	     require("static/includes.html");
 	    ?>
 	      
    </head>
@@ -24,7 +24,7 @@
 
 
    	 <?php
-	    require("../static/navBar.html");
+	    require("static/navBar.html");
 	  ?>
 
 
@@ -67,10 +67,10 @@
 			     		<p>Towards the end of the internship I was able to receive some valuable feedback on my time there.</p>
 			     		
 			     			
-			     		<p><a href = "../downloads/APearcePWCFeedback.jpg" alt = "Feedback1" download>Feedback</a> from Chris Adlem, Senior Associate, and David Ottaway, Senior Manager.</p>
+			     		<p><a href = "downloads/APearcePWCFeedback.jpg" alt = "Feedback1" download>Feedback</a> from Chris Adlem, Senior Associate, and David Ottaway, Senior Manager.</p>
 			     		
 			     			
-			     		<p><a href = "../downloads/APearcePWCFeedback1.jpg" alt = "Feedback2" download>Feedback</a> from Will Bridges, Senior Associate.</p>
+			     		<p><a href = "downloads/APearcePWCFeedback1.jpg" alt = "Feedback2" download>Feedback</a> from Will Bridges, Senior Associate.</p>
 			     			
 			     		
 				 </div>
@@ -78,7 +78,7 @@
 				 <div class = "col-2">
 			   	</div>
 				 <div class = "col-4">
-			   			<img src = "../images/pwc.JPG" alt = "pwc" width="200" height ="150" id = "pwcImage">
+			   			<img src = "images/pwc.JPG" alt = "pwc" width="200" height ="150" id = "pwcImage">
 			   	</div>
 			</div>
 			
@@ -98,7 +98,7 @@
 	   			<div class = "col-2">
 			   	</div>
 				 <div class = "col-4">
-			   			<img src = "../images/screwfix.png" alt = "pwc" width="200" height ="50" id = "pwcImage">
+			   			<img src = "images/screwfix.png" alt = "pwc" width="200" height ="50" id = "pwcImage">
 			   	</div>
 	   		</div>
 	   </div>

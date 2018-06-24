@@ -14,7 +14,7 @@
 
 
                if(!empty($name)&&!empty($subject)&&!empty($message)){
-                   $to = "rob@rnwood.co.uk"; //arpearce93@gmail.com
+                   $to = "oakgrove2004@gmail.com"; //rob@rnwood.co.uk
                    $headers = 'From: ' . $name . ' <' . $email . '>' . "\r\n" .'Reply-To: ' . $email . "\r\n";
 
                    if(mail($to, $subject, $message,$headers)){

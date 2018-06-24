@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../static/includes.html");
+	     require("static/includes.html");
 	    ?>
 	      
    </head>
@@ -26,7 +26,7 @@
 
 
    	 <?php
-	    require("../static/navBar.html");
+	    require("static/navBar.html");
 	  ?>
 
 
@@ -48,7 +48,7 @@
 	<div class="col-sm-1">
   	</div>
 	 <div class="col-sm-5">
-      <img src = "../images/pic.png" class="img-fluid" alt="AP"  height = "300" width = "300" id = "me">
+      <img src = "images/pic.png" class="img-fluid" alt="AP"  height = "300" width = "300" id = "me">
     </div>
   </div>
 </div>
@@ -58,7 +58,7 @@
 
 	
 	<?php
-	    require("../static/footerBar.html");
+	    require("static/footerBar.html");
 	  ?>
 
       

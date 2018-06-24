@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../static/includes.html");
+	     require("static/includes.html");
 	    ?>
 	      
    </head>
@@ -24,7 +24,7 @@
 
 
    	 <?php
-	    require("../static/navBar.html");
+	    require("static/navBar.html");
 	  ?>
 
 	   <div class="container-fluid" id = "contactForm">
@@ -81,7 +81,7 @@
 
 	
 	<?php
-	    require("../static/footerBar.html");
+	    require("static/footerBar.html");
 	  ?>
 
       

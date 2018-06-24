@@ -4,7 +4,7 @@
    <head>
 	    
 	    <?php
-	     require("../static/includes.html");
+	     require("static/includes.html");
 	    ?>
 	      
    </head>
@@ -17,14 +17,14 @@
 	 </script>
 
     <?php
-	    require("../static/navBar.html");
+	    require("static/navBar.html");
 	  ?>
 
 
 		
 	  <div class="container-fluid" id = "bsc">
 		  			<div class = "col-lg">
-		  				<h2>BSc Computing</h2>
+		  				<h1>BSc Computing</h1>
 					    <p> I recently graduated from <a href = "http://www.bbk.ac.uk/" alt = "bbk">Birkbeck, University of London</a> <!--with a MARK HERE --> with a Computing BSc. </p>
 					    <p> I really enjoyed the course at Birkbeck, the content was very interesting and also challenging. The lecturers provided a great learning experience throughout the 4 years of study. I have definitely come away from the degree with a lot of useful knowledge and practical experience.
 						 <p> 
@@ -126,7 +126,7 @@
 			<div class = "col-lg" id = "bscProject">
 					    <p>For my BSc computing project I built my own version of Pong in Java. The application included multiple screens, Android compatibility, database connectivity for high scores and a balanced AI player.</p>
 					    <p> View the code on GitHub <a href = "https://github.com/apearc03/pongProject-w-DB-connectivity" alt = "pongProject">here</a>.</p>
-					    <p> Download the final written report in PDF <a href = "../downloads/Final Year Project-AlexPearce.pdf" alt = "writtenReport" download>here</a>.</p>
+					    <p> Download the final written report in PDF <a href = "downloads/Final Year Project-AlexPearce.pdf" alt = "writtenReport" download>here</a>.</p>
 			</div>
 		</div>
 	  
