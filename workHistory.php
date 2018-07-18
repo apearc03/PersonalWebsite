@@ -27,11 +27,29 @@
 	    require("static/navBar.html");
 	  ?>
 
+	  <div class="container-fluid work">
+	   	<div class = "row">
+	   		<div class = "col-6">
+	   				<h1 class = "heading">Paxport</h1>
+	   				<p><Strong>Junior Software Developer</Strong>  - August 2018 - Present</p>
+					<!-- TO DO
+						<p>Download my C.V. <a href = "" alt = "CV">here</a>.</p>-->
+	   			</div>
+	   			<div class = "col-2">
+			   	</div>
+				 <div class = "col-4">
+			   			<img src = "images/paxport.jpg" alt = "pax" width="200" height ="50" id="pwcImage">
+			   	</div>
+	   		</div>
+	   </div>
+
+
 
 	   <div class="container-fluid work">
 		   	<div class = "row">
 				<div class = "col-6">
 					<h1 class = "heading">PricewaterhouseCoopers</h1>
+						<p><Strong>Data Assurance Intern</Strong> - July 2017 -September 2017</p>
 				   		<p>During summer 2017, I was selected to join the <a href = "https://www.pwc.co.uk/careers/offices/bristol.html" alt = "pwcBristol">PwC Bristol</a> office for a 6 week internship within their <a href = "https://www.pwc.co.uk/services/audit-assurance/risk-assurance/services/data-analytics-assurance.html" alt = "Data">Data Assurance</a> services. This was a fantastic experience as I was able to work in a very interesting field with some great individuals.</p>
 
 				   		<p>The majority of my time was spent working on projects dealing with data sets and developing dashboards to visualise key data trends.</p>
@@ -78,7 +96,7 @@
 				 <div class = "col-2">
 			   	</div>
 				 <div class = "col-4">
-			   			<img src = "images/pwc.JPG" alt = "pwc" width="200" height ="150" id = "pwcImage">
+			   			<img src = "images/pwc.JPG" alt = "pwc" width="200" height ="150" id="pwcImage">
 			   	</div>
 			</div>
 			
@@ -87,21 +105,7 @@
 	   </div>
 	  
 
-	   <div class="container-fluid work">
-	   	<div class = "row">
-	   		<div class = "col-6">
-	   				<h1 class = "heading">Screwfix</h1>
-	   				<p>I currently work at Screwfix, Bath, as a counter assistant. I have various duties including warehouse organisation and assisting customers with plumbing, electrical and DIY purchases.</p>
-					<!-- TO DO
-						<p>Download my C.V. <a href = "" alt = "CV">here</a>.</p>-->
-	   			</div>
-	   			<div class = "col-2">
-			   	</div>
-				 <div class = "col-4">
-			   			<img src = "images/screwfix.png" alt = "pwc" width="200" height ="50" id = "pwcImage">
-			   	</div>
-	   		</div>
-	   </div>
+
 		
    
 
