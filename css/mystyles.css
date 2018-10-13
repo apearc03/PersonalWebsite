@@ -1,3 +1,25 @@
+
+
+
+/*Footer bar*/
+
+#bottom{
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	text-align: center;
+}
+
+.footImg{
+	padding-left:5px; 
+	padding-right:5px;
+	border-radius: 20%;
+}
+
+.footImg:hover{
+	transform: scale(1.2, 1.2);
+}
+
+
 /* NAV BAR */
 
 
@@ -21,39 +43,27 @@
 /*
 ABOUT PAGE
 */
+
+
 #intro{
 	margin-top: 150px;
 	padding-left: 10%;
 	padding-right: 5%;
-
 }
 
 
 #me{
-	margin-top:150px;
-	margin-bottom:150px;
+	margin-top: 150px;
+	margin-bottom:1%;
 	border-radius: 25%;
 }
 
-#bottom{
-	padding-top:1%;
-	padding-bottom:1%;
-	text-align: center;
-}
+
 
 #welcome{
 	opacity: 0;
 }
 
-.footImg{
-	padding-left:5px; 
-	padding-right:5px;
-	border-radius: 20%;
-}
-
-.footImg:hover{
-	transform: scale(1.2, 1.2);
-}
 
 /* PROJECT PAGE */
 .project{
@@ -131,6 +141,7 @@ EDUCATION PAGE
 /*Work History */
 
 
+
 .work{
 	padding-top: 120px;
 	padding-bottom: 100px;
@@ -144,9 +155,14 @@ EDUCATION PAGE
 	padding-top:30px;
 }
 
+
+
+
 #pwcImage{
 	margin-top:75px;
 }
+
+
 
 #mainTask{
 	padding-top: 35px;
