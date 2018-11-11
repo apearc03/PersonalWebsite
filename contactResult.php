@@ -30,8 +30,8 @@
                     }
                 }
                 else{
-                    echo "Somehow the values are empty after validation.";
-                    //Need to show error saying that some of the values are empty
+                    $result = "Message failed to send because of empty form values";
+                    include("result.php");
                 }
 
 
@@ -55,14 +55,6 @@
     }
 
 
-            /*echo "$name";
-            echo "<br>";
-            echo "$email";
-            echo "<br>";
-            echo "$subject";
-            echo "<br>";
-            echo "$message";
-            */
 
 
 ?>
