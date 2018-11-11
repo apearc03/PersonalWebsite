@@ -3,11 +3,6 @@
 
 /*Footer bar*/
 
-#bottom{
-	padding-top:6px;
-	padding-bottom:6px;
-	text-align: center;
-}
 
 .footImg{
 	padding-left:5px; 
@@ -65,12 +60,7 @@ ABOUT PAGE
 
 
 /* PROJECT PAGE */
-.project{
-	padding-bottom: 10px;
-	padding-left: 10%;
-	padding-right: 10%;
 
-}
 
 
 .features{
@@ -80,11 +70,6 @@ ABOUT PAGE
 .vid{
 	margin-top: 40px;
 	margin-bottom: 10px;
-}
-
-.projectSegment{
-	background-color: #dbdbdb;
-	padding: 50px;
 }
 
 
@@ -195,6 +180,12 @@ EDUCATION PAGE
         }
     }
 
+@media all and (max-width: 900px) { 
+    body {
+        font-size: 0.9em;
+        }
+    }
+
 
  a{
  	cursor: pointer;
@@ -207,3 +198,43 @@ EDUCATION PAGE
  #submitError{
  	text-align: center;
  }
+
+ .darkProj{
+ 	background-color: #dbdbdb;
+ 	padding:2%;
+ 	font-size: 0.8em;
+ }
+
+ .lightProj{
+ 	padding:2%;
+ 	font-size: 0.8em;
+ }
+
+li{
+	 list-style-type: none;
+}
+
+#jobs{
+	font-size: 0.9em;
+}
+
+#bsc{
+	font-size: 0.9em;
+}
+
+
+
+.sidenav {
+    width: 40px;
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    background: #dbdbdb;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+#sideImage{
+	padding-top: 8px;
+}
+

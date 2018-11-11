@@ -17,6 +17,14 @@
 	    require("static/navBar.html");
 	  ?>
 
+	  <?php
+	    require("static/sideBar.html");
+	  ?>
+
+
+
+<!-- ABOUT -->
+
 <div class = "container-fluid pageBreak" id = "start">
 	  <div class="row">
 	    <div class="col-sm-6" id ="intro">
@@ -37,23 +45,19 @@
 
 	<div class = "container-fluid pageBreak" id ="jobs">
 	   	<div class = "row">
-	   		<div class = "col-sm-6">
-	   				<h1 >Paxport</h1>
+	   		<div class = "col-sm-10">
+	   				<h1>Paxport</h1>
 	   				<p><Strong>Junior Software Developer</Strong>  - August 2018 - Present</p>
-					<!-- TO DO
-						<p>Download my C.V. <a href = "" alt = "CV">here</a>.</p>-->
 	   			</div>
-	   			<div class = "col-sm-2">
-			   	</div>
-				 <div class = "col-sm-4">
+				 <div class = "col-sm-2">
 			   			<img src = "images/paxport.jpg" alt = "pax" width="200" height ="50">
 			   	</div>
 	   		</div>
 
 
 
-		   	<div class = "row ">
-				<div class = "col-sm-8">
+		   	<div class = "row">
+				<div class = "col-sm-10">
 					<h1 >PwC</h1>
 						<p><Strong>Data Assurance Intern</Strong> - July 2017 -September 2017</p>
 				   		<p>During summer 2017, I was selected to join the <a href = "https://www.pwc.co.uk/careers/offices/bristol.html" alt = "pwcBristol">PwC Bristol</a> office for a 6 week internship within their <a href = "https://www.pwc.co.uk/services/audit-assurance/risk-assurance/services/data-analytics-assurance.html" alt = "Data">Data Assurance</a> services. This was a fantastic experience as I was able to work in a very interesting field with some great individuals.</p>
@@ -76,7 +80,7 @@
 			     		<p>During the internship I also had the opportunity to travel and work with clients. I joined the controls assurance team to carry out IT controls testing for <a href = "https://www.omega-pharma.com/en" alt = "omega">Omega Pharma</a>, a sub division of <a href = "https://www.perrigouk.co.uk/default.aspx" alt = "Perri">Perrigo</a>. This project involved regular communication with clients, meeting deadlines and working heavily with Aura Audit Software to assess the companies control protocols.</p>
 			     		
 				 </div>
-				 <div class = "col-sm-4">
+				 <div class = "col-sm-2">
 			   			<img src = "images/pwc.JPG" alt = "pwc" width="200" height ="150">
 			   	</div>
 			</div>
@@ -200,8 +204,8 @@
   <div class = "container-fluid pageBreak" id ="proj">
 	 
   		<div class="row">
-		    <div class="col-sm-3">
-		    	<h2>Multiplayer Tank Arena</h2>	    	
+		   	 <div class="col-sm-3 darkProj">
+		    	<h4>Multiplayer Tank Arena</h4>	    	
 		    	<p>I made a 2D multiplayer browser game. Players control a tank to shoot and move within an arena.</p>
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
@@ -229,10 +233,9 @@
 			      	<li>
 			      		Built-in online chat.
 			      	</li>
-			      </ul>
-			     	
+			      </ul>	     	
 		    </div>
-			<div class="col-sm-3">
+			<div class="col-sm-3 darkProj">
 				 	<video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
 					  <source src="videos/tankArenaTrim.mp4" type="video/mp4">
 					Your browser does not support the video tag.
@@ -248,9 +251,9 @@
 		     	 		<p>(Heroku apps take a few seconds to start up if idle)</p>
 		     	 	</div>
 		     	</div>
-		    </div>
-		   <div class="col-sm-3">
-		    	<h2>Conway's game of life</h2> 
+		  </div>
+		<div class="col-sm-3 lightProj">
+		    	<h4>Conway's game of life</h4> 
 			      <p>I re-created <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life</a>.</p>
 		    		<p>The program uses an algorithm which only tests active cell state rather than the entire board. This, along with selective rendering leads to high performance.</p>
 				<p><strong>Built with:</strong></p>
@@ -273,13 +276,10 @@
 			      	<li>
 			      		Pattern automater. Select patterns to be added to the board.
 			      	</li>
-			      	<li>
-			      		Living cell counter.
-			      	</li>
 			      </ul>
 		    </div>
-		    <div class="col-sm-3">
-		      <video class="embed-responsive vid" width="400" height="400" muted autoplay loop>
+		    <div class="col-sm-3 lightProj">
+		      <video class="embed-responsive vid" width="300" height="300" muted autoplay loop>
 					  <source src="videos/conwayV2.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 					</video>
@@ -290,15 +290,14 @@
 					</div>
 		      </div>
 		    </div>
-		  </div>
+	</div>
 
 
 		  <!-- Bottom row of projects -->
 
 		  <div class="row">
-		    <div class="col-sm-3">
-		    	<h2>Pong</h2>
-		    	
+		    <div class="col-sm-3 lightProj">
+		    	<h4>Pong</h4>
 		    	<p>My implementation of the classic arcade game, <a href = "https://en.wikipedia.org/wiki/Pong">Pong</a>.</p>
 		    	<p>This is a trimmed version of my <a href = "https://github.com/apearc03/pongProject-w-DB-connectivity" alt = "bscProj">BSc project</a>.</p>
 				<p><strong>Built with:</strong></p>
@@ -321,8 +320,8 @@
 			      </ul>
 			     	
 		    </div>
-			<div class="col-sm-3">
-				 	<video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
+			<div class="col-sm-3 lightProj">
+				 	<video class="embed-responsive vid" width="300" height="300" muted autoplay loop>
 					  <source src="videos/pongLoop.mp4" type="video/mp4">
 					Your browser does not support the video tag.
 					</video>
@@ -333,8 +332,8 @@
 					</div>
 		     	 </div>
 		    </div>
-		     <div class="col-sm-3">
-		    	<h2>alexpearce.info</h2> 
+		     <div class="col-sm-3 darkProj">
+		    	<h4>alexpearce.info</h4> 
 			      <p>A personal website to showcase information about myself. </p>
 			      	<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
@@ -359,7 +358,7 @@
 			      	</li>
 			      </ul>
 		    </div>
-		    <div class="col-sm-3">
+		    <div class="col-sm-3 darkProj">
 		    		<img src = "images/aboutPic.png"  class="img-fluid vid" width="700" height="400" alt="aboutPic">
 		     	
 		   		    <div class="row">
