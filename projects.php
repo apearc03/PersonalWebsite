@@ -10,11 +10,7 @@
    </head>
    
    <body>
-   	 <script>
-   	 	$(document).ready(function() {
-   	 		navBarInit("#projects");
-	 	});
-	 </script>
+ 
 
     <?php
 	    require("static/navBar.html");
@@ -67,6 +63,11 @@
 						<a class="btn btn-success" href="https://github.com/apearc03/nodeProject" role="button">Github</a>
 					</div>
 		     	 </div>
+		     	 <div class="row">
+		     	 	<div class="mx-auto">
+		     	 		<p>(Heroku apps take a few seconds to start up if idle)</p>
+		     	 	</div>
+		     	</div>
 		    </div>
 		  </div>
 		</div>
@@ -77,7 +78,7 @@
 		  <div class="row projectSegment">
 		    <div class="col-sm-6">
 		    	<h2>Conway's game of life</h2> 
-			      <p>I re-created <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life<a>.</p>
+			      <p>I re-created <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life</a>.</p>
 		    		<p>The program uses an algorithm which only tests active cell state rather than the entire board. This, along with selective rendering leads to high performance.</p>
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">

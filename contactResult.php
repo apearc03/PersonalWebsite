@@ -19,18 +19,19 @@
 
                    if(mail($to, $subject, $message,$headers)){
                       //echo "Email worked";
-                      $result = "Thank you for your email.";
+                      $result = "Thank you for your message.";
                       include("result.php");
                       
                    }
                    else{
                       //echo "Email failed";
-                      $result = "Email failed to send.";
+                      $result = "Message failed to send";
                       include("result.php");
                     }
                 }
                 else{
                     echo "Somehow the values are empty after validation.";
+                    //Need to show error saying that some of the values are empty
                 }
 
 

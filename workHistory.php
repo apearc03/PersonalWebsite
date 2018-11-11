@@ -14,11 +14,6 @@
 
 
 
-	 <script>
-   	 	$(document).ready(function() {
-			navBarInit("#workHistory");
-	 	});
-	 </script>
 
 
 

@@ -10,11 +10,6 @@
    </head>
    
    <body>
-   	 <script>
-   	 	$(document).ready(function() {
-	 		navBarInit("#qualifications");
-	 	});
-	 </script>
 
     <?php
 	    require("static/navBar.html");

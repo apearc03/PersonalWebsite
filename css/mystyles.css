@@ -4,8 +4,8 @@
 /*Footer bar*/
 
 #bottom{
-	padding-top:0.5%;
-	padding-bottom:0.5%;
+	padding-top:6px;
+	padding-bottom:6px;
 	text-align: center;
 }
 
@@ -47,14 +47,13 @@ ABOUT PAGE
 
 #intro{
 	margin-top: 150px;
-	padding-left: 10%;
-	padding-right: 5%;
 }
 
 
 #me{
 	margin-top: 150px;
-	margin-bottom:1%;
+	max-width: 100%;
+	margin-bottom:150px;
 	border-radius: 25%;
 }
 
@@ -67,8 +66,7 @@ ABOUT PAGE
 
 /* PROJECT PAGE */
 .project{
-	padding-top: 150px;
-	padding-bottom: 100px;
+	padding-bottom: 10px;
 	padding-left: 10%;
 	padding-right: 10%;
 
@@ -96,13 +94,6 @@ ABOUT PAGE
 EDUCATION PAGE
 */
 
-#bsc{
-	padding-top: 150px;
-	padding-bottom: 100px;
-	padding-left: 10%;
-	padding-right: 10%;
-
-}
 
 #gcseBlock{
 	padding-top: 75px;
@@ -120,7 +111,7 @@ EDUCATION PAGE
 }
 
 .module{
-	padding-top: 20px;
+	padding-top: 10px;
 }
 
 
@@ -143,24 +134,12 @@ EDUCATION PAGE
 
 
 .work{
-	padding-top: 120px;
-	padding-bottom: 100px;
 	padding-left: 10%;
 	padding-right: 10%;
-
-}
-
-
-.heading{
-	padding-top:30px;
 }
 
 
 
-
-#pwcImage{
-	margin-top:75px;
-}
 
 
 
@@ -177,15 +156,13 @@ EDUCATION PAGE
 
 
 #contactForm{
-	padding-top: 150px;
-	padding-bottom: 100px;
-	padding-left:21%;
-	padding-right:10%;
+	padding-top: 200px;
+	padding-bottom: 200px;
+	padding-left: 15%;
 }
 
 #contactMe{
-	padding-bottom: 20px;
-	padding-left: 10px;
+	text-align: center;
 }
 
 
@@ -197,3 +174,36 @@ EDUCATION PAGE
 	padding-bottom: 100px;
 	text-align: center;
 }
+
+
+
+
+
+/*changes to single page */
+
+.pageBreak{
+	padding-top:5%; 
+	padding-bottom:10%; 
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+
+@media all and (max-width: 768px) { 
+    body {
+        font-size: 0.8em;
+        }
+    }
+
+
+ a{
+ 	cursor: pointer;
+ }
+
+ label{
+ 	text-align: center;
+ }
+
+ #submitError{
+ 	text-align: center;
+ }

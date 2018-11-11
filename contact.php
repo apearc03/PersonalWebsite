@@ -22,7 +22,6 @@
 
 
 
-
    	 <?php
 	    require("static/navBar.html");
 	  ?>
@@ -67,16 +66,7 @@
 					</div>
 			</form>
 	</div> 
-	   
-
-
-
-
-
-
-
-
-	  
+	     
 
 
 	
