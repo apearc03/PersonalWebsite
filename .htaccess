@@ -1,13 +1,12 @@
-#RewriteEngine on
-#RewriteBase /
-#RewriteCond %{REQUEST_FILENAME} !-d
-#RewriteCond %{REQUEST_FILENAME}\.php -f
-#RewriteRule ^(.*?)/?$ $1.php
-
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
 
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+
 DirectoryIndex about.php
 
-ErrorDocument 404 http://www.alexpearce.info/404
+ErrorDocument 404 http://alexpearce.info/404
