@@ -28,10 +28,10 @@
 <div class = "container-fluid pageBreak" id = "start">
 	  <div class="row">
 	    <div class="col-sm-6" id ="intro">
+	    <div id = "aboutMid"></div>
 	      <h1 id ="welcome">Hi, I'm Alex.</h1>
 		  <p>I'm a Computer Science graduate from the UK. A few of my interests include emerging technologies, programming and powerlifting.</p>
-		  <p>I created this website as a portfolio to showcase some of my experiences and projects.</p>
-		  <p>Feel free to <a onclick="scrollToDiv('#contactForm','#contact');" alt = "">contact</a> me with any suggestions or feedback you may have.</p>
+		  <p >I created this website as a portfolio to showcase some of my experiences and projects.</p>
 	    </div>
 		<div class="col-sm-1">
 	  	</div>
@@ -54,11 +54,11 @@
 			   	</div>
 	   		</div>
 
-
-
+	   		<!-- PWC -->
+	   		<div id = "jobsMid"></div>
 		   	<div class = "row">
 				<div class = "col-sm-10">
-					<h1 >PwC</h1>
+					<h1>PwC</h1>
 						<p><Strong>Data Assurance Intern</Strong> - July 2017 -September 2017</p>
 				   		<p>During summer 2017, I was selected to join the <a href = "https://www.pwc.co.uk/careers/offices/bristol.html" alt = "pwcBristol">PwC Bristol</a> office for a 6 week internship within their <a href = "https://www.pwc.co.uk/services/audit-assurance/risk-assurance/services/data-analytics-assurance.html" alt = "Data">Data Assurance</a> services. This was a fantastic experience as I was able to work in a very interesting field with some great individuals.</p>
 				   		<p>I had a lot of exposure to technologies such as:</p>
@@ -100,6 +100,7 @@
 						 <p>   
 					 </div>
 		    <div class = "row rowAdjustment">
+		    	<div id = "bscMid"></div>
 				<div class="col-sm years">
 					<p><strong>Year 1</strong></p>
 					<ul class="list-group">
@@ -292,7 +293,7 @@
 		    </div>
 	</div>
 
-
+	<div id = "projMid"></div>
 		  <!-- Bottom row of projects -->
 
 		  <div class="row">
@@ -391,6 +392,7 @@
 							<input type="text" class="form-control" id="subject" name="subject" placeholder="" value="" required>
 						</div>
 					</div>
+					<div id = "contactFormMid"></div>
 					<div class="form-group">
 						<label for="email" class="col-sm-10 control-label">Email</label>
 						<div class="col-sm-10">

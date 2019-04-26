@@ -1,27 +1,46 @@
 
+var midsToMenus = [
+  {mid:'#aboutMid', menu:'#about'},
+  {mid:'#jobsMid', menu:'#workHistory'},
+  {mid:'#bscMid', menu:'#qualifications'},
+  {mid:'#projMid', menu:'#projects'},
+  {mid:'#contactFormMid', menu:'#contact'}];
+
+var lastScrolled = midsToMenus[0].mid;
+
+var autoScrolling = false;
 
 
 
-function MenuBackgrounds(id){
-	var menuLinks = ['#about','#workHistory','#qualifications','#projects','#contact'];
-	for(var i in menuLinks){
-		if(menuLinks[i]!=id){
-			$(menuLinks[i]).css({"background-color": "#1e1e82", "border-radius": "10px"});
+function MenuBackgrounds(menuid){
+
+	for(var i in midsToMenus){
+		if(midsToMenus[i].menu != menuid){
+			$(midsToMenus[i].menu).css({"background-color": "#1e1e82", "border-radius": "10px"});
 		}
 		else{
-			$(id).css({"background-color": "#0762f1", "border-radius": "10px"});
+			$(menuid).css({"background-color": "#0762f1", "border-radius": "10px"});
 		}
 	}
-
 
 }
 
 
 function scrollToDiv(segment, id){
+
+		autoScrolling = true;
+		//console.log("Started scrolling");
 	  $('html, body').animate({
 		        scrollTop: $(segment).offset().top
 		 }, 1000);
-		MenuBackgrounds(id);
+
+	  setTimeout(function(){
+	  	MenuBackgrounds(id);
+	  	autoScrolling = false;
+	  	//console.log("Stopped scrolling");
+		}, 1100);
+		
+		
 }
 
 
@@ -40,16 +59,49 @@ function validateMyForm(){
 	}
 
 }
-		
+	
+
+
+function visible(midToMenu){
+
+	$(midToMenu.mid).on('inview', function(event, visible) {
+	      if (visible && lastScrolled != midToMenu.mid) {
+	       	MenuBackgrounds(midToMenu.menu);
+	       	lastScrolled = midToMenu.mid;
+	      }
+	 });
+
+}
+
+
+
 $(document).ready(function() {
 
 		$('html, body').animate({
 		       scrollTop: $('#start').offset().top
 		 });
-		MenuBackgrounds("#about");
+		MenuBackgrounds(midsToMenus[0].menu);
 		$("#welcome").animate({'opacity':1},1500);
 
 
 });
+
+
+
+$(window).on('scroll',function(){ 
+
+		if(!autoScrolling){
+		 	//console.log("triggering");
+			   for(var i in midsToMenus){
+					visible(midsToMenus[i]);
+				}
+				
+		}
+});
+
+
+
+
+
 
 
