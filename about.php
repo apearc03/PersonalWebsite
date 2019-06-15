@@ -205,46 +205,44 @@
   <div class = "container-fluid pageBreak" id ="proj">
 	 
   		<div class="row">
-		   	 <div class="col-sm-3 darkProj">
-		    	<h4>Multiplayer Tank Arena</h4>	    	
-		    	<p>I made a 2D multiplayer browser game. Players control a tank to shoot and move within an arena.</p>
+		 <div class="col-sm-3 darkProj">
+		 	<h5>Spring Boot Instagram Scraper</h5>	  	
+		    	<p>I created a Spring Boot web service that scrapes Instagram user pages and returns public data in a JSON format.</p>
 				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
 		    	 	<li>
-			      		HTML/CSS.
+			      		Java 8.
 			      	</li>
 		    	 	<li>
-			      		Javascript/jQuery.
+			      		Spring Boot.
 			      	</li>
 		    	 	<li>
-			      		<a href= "https://nodejs.org/en/">Node.js</a>.
+			      		Dagger 2.
 			      	</li>
 		    	 	<li>
-			      		<a href= "https://socket.io/">Socket.io</a>.
-			      	</li>
-			      	<li>
-			      		<a href= "https://phaser.io/">Phaser</a>.
+			      		Jackson.
 			      	</li>
 			      </ul>
 			     <p class = "features"><strong>Features:</strong></p>
 			     <ul class="list-group">
 		    	 	<li>
-			      		Multiplayer gameplay.
+			      		Incorporates controllers for both POST and GET.
 			      	</li>
 			      	<li>
-			      		Built-in online chat.
+			      		Returns data for multiple users from a single request.
+			      	</li>
+			      	<li>
+			      		Swagger UI documentation.
 			      	</li>
 			      </ul>	     	
 		    </div>
 			<div class="col-sm-3 darkProj">
-				 	<video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
-					  <source src="videos/tankArenaTrim.mp4" type="video/mp4">
-					Your browser does not support the video tag.
-					</video>
+					<h6 id ="recent">*Most recent!</h6>	
+				 	<img src = "images/gramScraper.png"  class="img-fluid vid" width="700" height="400" alt="aboutPic">
 		         <div class="row">
 		         	<div class="mx-auto">
-			      		<a class="btn btn-primary" href="https://multiplayertankarena.herokuapp.com/" role="button" download>Play online</a>
-						<a class="btn btn-success" href="https://github.com/apearc03/nodeProject" role="button">Github</a>
+			      		<a class="btn btn-primary" href="https://gramscraper.herokuapp.com/" role="button" download>Test it out!</a>
+						<a class="btn btn-success" href="https://github.com/apearc03/InstagramScraperService" role="button">Github</a>
 					</div>
 		     	 </div>
 		     	 <div class="row">
@@ -252,7 +250,7 @@
 		     	 		<p>(Heroku apps take a few seconds to start up if idle)</p>
 		     	 	</div>
 		     	</div>
-		  </div>
+		  </div>  	 
 		<div class="col-sm-3 lightProj">
 		    	<h4>Conway's game of life</h4> 
 			      <p>I re-created <a href = "https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life">Conway's game of life</a>.</p>
@@ -334,40 +332,53 @@
 		     	 </div>
 		    </div>
 		     <div class="col-sm-3 darkProj">
-		    	<h4>alexpearce.info</h4> 
-			      <p>A personal website to showcase information about myself. </p>
-			      	<p><strong>Built with:</strong></p>
+		    	<h4>Multiplayer Tank Arena</h4>	    	
+		    	<p>I made a 2D multiplayer browser game. Players control a tank to shoot and move within an arena.</p>
+				<p><strong>Built with:</strong></p>
 		    	 <ul class="list-group">
 		    	 	<li>
 			      		HTML/CSS.
 			      	</li>
-			      	<li>
-			      		Javascript.
+		    	 	<li>
+			      		Javascript/jQuery.
 			      	</li>
 		    	 	<li>
-			      		PHP.
+			      		<a href= "https://nodejs.org/en/">Node.js</a>.
+			      	</li>
+		    	 	<li>
+			      		<a href= "https://socket.io/">Socket.io</a>.
 			      	</li>
 			      	<li>
-			      		<a href= "https://getbootstrap.com/">Bootstrap</a>.
+			      		<a href= "https://phaser.io/">Phaser</a>.
 			      	</li>
-
 			      </ul>
 			     <p class = "features"><strong>Features:</strong></p>
 			     <ul class="list-group">
 		    	 	<li>
-			      		Responsive design.
+			      		Multiplayer gameplay.
 			      	</li>
-			      </ul>
+			      	<li>
+			      		Built-in online chat.
+			      	</li>
+			      </ul>	     	
 		    </div>
-		    <div class="col-sm-3 darkProj">
-		    		<img src = "images/aboutPic.png"  class="img-fluid vid" width="700" height="400" alt="aboutPic">
-		     	
-		   		    <div class="row">
-			      		<div class="mx-auto">
-							<a class="btn btn-success" href="https://github.com/apearc03/PersonalWebsite" role="button">Github</a>
-						</div>
-		     		 </div>
-		    </div>
+			<div class="col-sm-3 darkProj">
+				 	<video class="embed-responsive vid" width="400" height="300" muted autoplay loop>
+					  <source src="videos/tankArenaTrim.mp4" type="video/mp4">
+					Your browser does not support the video tag.
+					</video>
+		         <div class="row">
+		         	<div class="mx-auto">
+			      		<a class="btn btn-primary" href="https://multiplayertankarena.herokuapp.com/" role="button" download>Play online</a>
+						<a class="btn btn-success" href="https://github.com/apearc03/nodeProject" role="button">Github</a>
+					</div>
+		     	 </div>
+		     	 <div class="row">
+		     	 	<div class="mx-auto">
+		     	 		<p>(Heroku apps take a few seconds to start up if idle)</p>
+		     	 	</div>
+		     	</div>
+		  </div>
 		  </div>
 		</div>	
 
