@@ -30,8 +30,9 @@
 	    <div class="col-sm-6" id ="intro">
 	    <div id = "aboutMid"></div>
 	      <h1 id ="welcome">Hi, I'm Alex.</h1>
-		  <p>I'm a Computer Science graduate from the UK. A few of my interests include emerging technologies, programming and powerlifting.</p>
-		  <p >I created this website as a portfolio to showcase some of my experiences and projects.</p>
+	      <br>
+		  <p>I'm a software developer from the UK.</p>
+		  <p>I created this website as a portfolio to showcase some of my experiences and projects.</p>
 	    </div>
 		<div class="col-sm-1">
 	  	</div>
@@ -48,12 +49,25 @@
 	   		<div class = "col-sm-10">
 	   				<h1>Paxport</h1>
 	   				<p><Strong>Junior Software Developer</Strong>  - August 2018 - Present</p>
+	   				<p>I'm currently working as Junior Software Developer at Paxport. Paxport provides a range of software products used in the travel industry. My role is to maintain and develop ‘Find and Book’. Find and Book is the aggregation service that organises many different services from flight, accommodation and ancillary suppliers into one single source. These suppliers include big travel industry entities such as Easyjet, Ryan Air and British Airways.</p>
+	   				<p>My time here has involved:</p>
+	   				<ul class="list-group">
+					      	<li>Java 8 development.</li>
+					      	<li>The use of tools and frameworks such as Maven, Spring, Spring boot, Dagger, Feign, JAXB, Mockito and JUnit.<li>
+					      	<li>Regular development against third party web APIs of many types. JSON, XML, SOAP etc.</li>
+					      	<li>Performing code reviews.</li>
+					      	<li>Working with continuous deployment systems. Specifically working with Gitlab CI and Jenkins.</li>
+					      	<li>Deploying software to the Google Cloud platform. Docker containers were built from images and deployed to Google Cloud’s Kubernetes engine.</li>
+					      	<li>Gradual migration from a monolithic software architecture to microservices.</li>
+					      	<li>Daily use of Jira as a ticketing and issue system.</li>
+					      	<li>Working directly with Postgres databases to help troubleshoot and resolve bugs.</li>
+			     	</ul>
 	   			</div>
 				 <div class = "col-sm-2">
 			   			<img src = "images/paxport.jpg" alt = "pax" width="200" height ="50">
 			   	</div>
 	   		</div>
-
+	   		<br>
 	   		<!-- PWC -->
 	   		<div id = "jobsMid"></div>
 		   	<div class = "row">
@@ -62,22 +76,16 @@
 						<p><Strong>Data Assurance Intern</Strong> - July 2017 -September 2017</p>
 				   		<p>During summer 2017, I was selected to join the <a href = "https://www.pwc.co.uk/careers/offices/bristol.html" alt = "pwcBristol">PwC Bristol</a> office for a 6 week internship within their <a href = "https://www.pwc.co.uk/services/audit-assurance/risk-assurance/services/data-analytics-assurance.html" alt = "Data">Data Assurance</a> services. This was a fantastic experience as I was able to work in a very interesting field with some great individuals.</p>
 				   		<p>I had a lot of exposure to technologies such as:</p>
-
 				   		 <ul class="list-group">
 					      		<a href = "https://www.qlik.com/us/products/qlik-sense" alt ="qlikSense">Qlik Sense</a>
 					      		<a href = "https://www.qlik.com/us/products/qlikview" alt ="qlikView">Qlik View</a>
 					      		<a href = "https://powerbi.microsoft.com/en-us/" alt ="powerBi">Power BI</a>
 					      		<a href = "https://www.r-project.org/about.html" alt ="R">R programming language</a>
-					      		<a href = "https://en.wikipedia.org/wiki/Microsoft_SQL_Server" alt ="SQLServer">Microsoft SQL Server</a>				      
-					      		<a href = "https://www.youtube.com/watch?time_continue=1&v=KuuAXzp7zqY" alt ="bbk">Aura Audit Software</a>
 					      	
 			     		 </ul>
-
 			     		<br>
 			     		<p>The main project I was tasked with involved developing a dashboard within Qlik Sense to display utilisation of the Data Assurance team's hours. This meant creating a visually effective display of statistics and key performance indicators.</p>
 			     		<p>This data was based upon the team's chargeable/non chargeable hours, type of clients and the services they were providing. The resulting dashboard made trends clear such as which team members were meeting chargeable hour targets and how the team's resources were being spent.</p>
-
-			     		<p>During the internship I also had the opportunity to travel and work with clients. I joined the controls assurance team to carry out IT controls testing for <a href = "https://www.omega-pharma.com/en" alt = "omega">Omega Pharma</a>, a sub division of <a href = "https://www.perrigouk.co.uk/default.aspx" alt = "Perri">Perrigo</a>. This project involved regular communication with clients, meeting deadlines and working heavily with Aura Audit Software to assess the companies control protocols.</p>
 			     		
 				 </div>
 				 <div class = "col-sm-2">
