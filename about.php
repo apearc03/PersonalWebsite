@@ -100,7 +100,7 @@
 	  <div class="container-fluid pageBreak" id = "bsc">
 		  			<div class = "col-lg">
 		  				<h1>BSc Computing</h1>
-					    <p> I recently graduated from <a href = "http://www.bbk.ac.uk/" alt = "bbk">Birkbeck, University of London</a> with first class honours. </p>
+					    <p> I graduated from <a href = "http://www.bbk.ac.uk/" alt = "bbk">Birkbeck, University of London</a> with first class honours. </p>
 					    <p> I really enjoyed the course at Birkbeck, the content was very interesting and also challenging. The lecturers provided a great learning experience throughout the 4 years of study. I have definitely come away from the degree with a lot of useful knowledge and practical experience.
 						 <p> 
 					    <p>	
