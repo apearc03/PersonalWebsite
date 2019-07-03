@@ -26,7 +26,7 @@
 					}
 
 					?>
-					<a href = "https://alexpearce.info/" alt = "index">Back home.</a>
+					<a href = "https://alexpearce.net/" alt = "index">Back home.</a>
 						
 
 		</div> 
