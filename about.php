@@ -238,7 +238,7 @@
 		    </div>
 			<div class="col-sm-3 darkProj">
 					<h6 id ="recent">*Most recent!</h6>	
-				 	<img src = "images/gramScraper.png"  class="img-fluid vid" width="700" height="400" alt="aboutPic">
+				 	<img src = "images/gramScraper.PNG"  class="img-fluid vid" width="700" height="400" alt="aboutPic">
 		         <div class="row">
 		         	<div class="mx-auto">
 			      		<a class="btn btn-primary" href="https://gramscraper.herokuapp.com/" role="button" download>Test it out!</a>

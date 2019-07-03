@@ -17,12 +17,12 @@
 	 
 
 
-		 <div class="container-fluid project">
+		 <div id = "error" class="container-fluid project">
 		
 		 		    <div class="row">
 			      		<div class="mx-auto">
 							<h2>Error, that page doesn't exist.</h2>
-							<a href = "https://alexpearce.info/" alt = "index">Back home.</a>
+							<a href = "https://alexpearce.net/" alt = "index">Back home.</a>
 						</div>
 		     		 </div>
 		</div>

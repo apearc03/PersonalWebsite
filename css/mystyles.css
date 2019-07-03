@@ -160,7 +160,13 @@ EDUCATION PAGE
 	text-align: center;
 }
 
+/* 404 */
 
+#error{
+	padding-top: 300px;
+	padding-bottom: 100px;
+	text-align: center;
+}
 
 
 
@@ -241,3 +247,4 @@ li{
 #recent{
 	float: right;
 }
+
