@@ -33,6 +33,7 @@
 	      <br>
 		  <p>I'm a software developer from the UK.</p>
 		  <p>I created this website as a portfolio to showcase some of my experiences and projects.</p>
+		  <p>Download a copy of my C.V. <a href = "downloads/AlexPearceCV.pdf" alt = "CV" download>here</a>.</p>
 	    </div>
 		<div class="col-sm-1">
 	  	</div>
@@ -74,13 +75,13 @@
 				<div class = "col-sm-10">
 					<h1>PwC</h1>
 						<p><Strong>Data Assurance Intern</Strong> - July 2017 -September 2017</p>
-				   		<p>During summer 2017, I was selected to join the <a href = "https://www.pwc.co.uk/careers/offices/bristol.html" alt = "pwcBristol">PwC Bristol</a> office for a 6 week internship within their <a href = "https://www.pwc.co.uk/services/audit-assurance/risk-assurance/services/data-analytics-assurance.html" alt = "Data">Data Assurance</a> services. This was a fantastic experience as I was able to work in a very interesting field with some great individuals.</p>
+				   		<p>During summer 2017, I was selected to join the PwC Bristol office for a 6 week internship within their Data Assurance services. This was a fantastic experience as I was able to work in a very interesting field with some great individuals.</p>
 				   		<p>I had a lot of exposure to technologies such as:</p>
 				   		 <ul class="list-group">
-					      		<a href = "https://www.qlik.com/us/products/qlik-sense" alt ="qlikSense">Qlik Sense</a>
-					      		<a href = "https://www.qlik.com/us/products/qlikview" alt ="qlikView">Qlik View</a>
-					      		<a href = "https://powerbi.microsoft.com/en-us/" alt ="powerBi">Power BI</a>
-					      		<a href = "https://www.r-project.org/about.html" alt ="R">R programming language</a>
+					      		<li>Qlik Sense</li>
+					      		<li>Qlik View</li>
+					      		<li>Power BI</li>
+					      		<li>R programming language</li>
 					      	
 			     		 </ul>
 			     		<br>
@@ -113,22 +114,22 @@
 					<p><strong>Year 1</strong></p>
 					<ul class="list-group">
 						<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/systems-analysis-and-design-i/" alt ="bbk">Systems Analysis and Design 1</a>
+				      		Systems Analysis and Design 1
 				      	</li>	
 			    	 	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/introduction-to-computer-systems/" alt ="bbk">Introduction to Computer Systems</a>
+				      		Introduction to Computer Systems
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/introduction-to-programming/" alt ="bbk">Introduction to Programming</a>
+				      		Introduction to Programming
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/introduction-to-web-authoring/" alt ="bbk">Introduction to Web Authoring</a>
+				      		Introduction to Web Authoring
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/mathematics-for-computing/" alt ="bbk">Mathematics for Computing</a>
+				      		Mathematics for Computing
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/problem-solving-for-programming/" alt ="bbk">Problem-Solving for Programming</a>
+				      		Problem-Solving for Programming
 				      	</li>
 			      </ul>
 			    </div>
@@ -136,22 +137,22 @@
 				<p><strong>Year 2</strong></p>
 					<ul class="list-group">
 						<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/computer-networking/" alt ="bbk">Computer Networking</a>
+				      		Computer Networking
 				      	</li>	
 			    	 	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/data-structures-and-algorithms/" alt ="bbk">Data Structures and Algorithms</a>
+				      		Data Structures and Algorithms
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/e-business/" alt ="bbk">E-business</a>
+				      		E-business
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/systems-analysis-and-design-ii/" alt ="bbk">Systems Analysis and Design II</a>
+				      		Systems Analysis and Design II
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/web-programming-using-php/" alt ="bbk">Web Programming using PHP</a>
+				      		Web Programming using PHP
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/software-and-programming-i/" alt ="bbk">Software and Programming 1</a>
+				      		Software and Programming 1
 				      	</li>
 			      </ul>
 			    </div>
@@ -159,22 +160,22 @@
 					<p><strong>Year 3</strong></p>
 					<ul class="list-group">
 						<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/computer-organisation-and-systems-software-1/" alt ="bbk">Computer Organisation and Systems Software</a>
+				      		Computer Organisation and Systems Software
 				      	</li>	
 			    	 	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/database-management/" alt ="bbk">Database Management</a>
+				      		Database Management
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/information-security/" alt ="bbk">Information Security</a>
+				      		Information Security
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/organizational-behaviour/" alt ="bbk">Organizational Behaviour</a>
+				      		Organizational Behaviour
 				      	</li>
 				      	<li class = "module">
 				      		Practical Software Engineering
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/software-and-programming-ii/" alt ="bbk">Software and Programming 2</a>
+				      		Software and Programming 2
 				      	</li>
 			      </ul>
 			    </div>
@@ -182,19 +183,19 @@
 						<p><strong>Year 4</strong></p>
 					<ul class="list-group ">
 						<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/project-computing/" alt ="bbk">BSc Computing Project</a>
+				      		BSc Computing Project
 				      	</li>	
 			    	 	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/javascript/" alt ="bbk">JavaScript</a>
+				      		JavaScript
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/professional-issues-in-computing/" alt ="bbk">Professional Issues in Computing</a>
+				      		Professional Issues in Computing
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/practical-software-engineering/" alt ="bbk">Practical Software Engineering</a>
+				      		Practical Software Engineering
 				      	</li>
 				      	<li class = "module">
-				      		<a href = "https://www.dcs.bbk.ac.uk/study/modules/software-and-programming-iii/" alt ="bbk">Software and Programming 3</a>
+				      		Software and Programming 3
 				      	</li>
 			      </ul>
 			    </div>
