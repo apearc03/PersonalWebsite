@@ -55,6 +55,7 @@
 	   				<ul class="list-group">
 					      	<li>Java 8 development.</li>
 					      	<li>The use of Java tools and frameworks such as Maven, Spring boot, Dagger, Feign, JAXB, Mockito, WireMock and JUnit.<li>
+					      	<li>An agile style development methodology. Sprint based work.</li>	
 					      	<li>Regular development against third party web APIs of many types. JSON, XML, SOAP etc.</li>
 					      	<li>Performing code reviews.</li>
 					      	<li>Working with continuous deployment systems. Specifically working with Gitlab CI and Jenkins.</li>
