@@ -54,7 +54,7 @@
 	   				<p>My time here has involved:</p>
 	   				<ul class="list-group">
 					      	<li>Java 8 development.</li>
-					      	<li>The use of tools and frameworks such as Maven, Spring, Spring boot, Dagger, Feign, JAXB, Mockito and JUnit.<li>
+					      	<li>The use of Java tools and frameworks such as Maven, Spring boot, Dagger, Feign, JAXB, Mockito, WireMock and JUnit.<li>
 					      	<li>Regular development against third party web APIs of many types. JSON, XML, SOAP etc.</li>
 					      	<li>Performing code reviews.</li>
 					      	<li>Working with continuous deployment systems. Specifically working with Gitlab CI and Jenkins.</li>
@@ -293,7 +293,7 @@
 					</video>
 		         <div class="row">
 		      		<div class="mx-auto">
-			      		<a class="btn btn-primary" href="downloads/GameOfLifeV2.jar" role="button" download>Download Jar</a>
+			      		<a class="btn btn-primary" href="downloads/GameOfLifeV2.jar" role="button" download>Download Runnable Jar</a>
 						<a class="btn btn-success" href="https://github.com/apearc03/GameOfLife" role="button">Github</a>
 					</div>
 		      </div>
@@ -335,7 +335,7 @@
 					</video>
 		         <div class="row">
 		         	<div class="mx-auto">
-			      		<a class="btn btn-primary" href="downloads/PongLIBGDX.jar" role="button" download>Download Jar</a>
+			      		<a class="btn btn-primary" href="downloads/PongLIBGDX.jar" role="button" download>Download Runnable Jar</a>
 						<a class="btn btn-success" href="https://github.com/apearc03/pongDesktop" role="button">Github</a>
 					</div>
 		     	 </div>
