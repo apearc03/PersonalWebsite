@@ -103,10 +103,10 @@
 		  			<div class = "col-lg">
 		  				<h1>BSc Computing</h1>
 					    <p> I graduated from <a href = "http://www.bbk.ac.uk/" alt = "bbk">Birkbeck, University of London</a> with first class honours. </p>
-					    <p> I really enjoyed the course at Birkbeck, the content was very interesting and also challenging. The lecturers provided a great learning experience throughout the 4 years of study. I have definitely come away from the degree with a lot of useful knowledge and practical experience.
+					    <p> I really enjoyed the course at Birkbeck, the content was interesting and also challenging. The lecturers provided a great learning experience throughout the 4 years of study. I have definitely come away from the degree with a lot of useful knowledge and practical experience.
 						 <p> 
 					    <p>	
-					    Below I have listed every module I studied whilst at Birkbeck. Each list item is a link to the official Birkbeck module page which contains a brief introduction along with content and objectives.
+					    Below, I have listed every module I studied whilst at Birkbeck.
 						 <p>   
 					 </div>
 		    <div class = "row rowAdjustment">
@@ -204,7 +204,6 @@
 			<div class = "col-lg" id = "bscProject">
 					    <p>For my BSc computing project I built my own version of Pong in Java. The application included multiple screens, Android compatibility, database connectivity for high scores and a balanced AI player.</p>
 					    <p> View the code on GitHub <a href = "https://github.com/apearc03/pongProject-w-DB-connectivity" alt = "pongProject">here</a>.</p>
-					    <p> Download the final written report in PDF <a href = "downloads/Final Year Project-AlexPearce.pdf" alt = "writtenReport" download>here</a>.</p>
 			</div>
 		</div>
 	  
