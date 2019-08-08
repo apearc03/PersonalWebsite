@@ -56,13 +56,20 @@
 					      	<li>Java 8 development.</li>
 					      	<li>The use of Java tools and frameworks such as Maven, Spring boot, Dagger, Feign, JAXB, Mockito, WireMock and JUnit.<li>
 					      	<li>An agile style development methodology. Sprint based work.</li>	
-					      	<li>Regular development against third party web APIs of many types. JSON, XML, SOAP etc.</li>
+					      	<li>Regular development against third party web APIs of many types. JSON, REST, XML, SOAP etc.</li>
 					      	<li>Performing code reviews.</li>
+					      	<li>Version control system including Git, Gitlab, SVN.</li>
 					      	<li>Working with continuous deployment systems. Specifically working with Gitlab CI and Jenkins.</li>
-					      	<li>Deploying software to the Google Cloud platform. Docker containers were built from images and deployed to Google Cloud’s Kubernetes engine.</li>
 					      	<li>Gradual migration from a monolithic software architecture to microservices.</li>
 					      	<li>Daily use of Jira as a ticketing and issue system.</li>
 					      	<li>Working directly with Postgres databases to help troubleshoot and resolve bugs.</li>
+					      	<li>Experience with various Google Cloud platform products.</li>
+					      		<ul>
+					      			<li>Docker containers were built from images and deployed to Google Cloud’s Kubernetes engine.</li>
+					      			<li>Production and test environments hosted on Google Compute Engine.</li>
+					      			<li>Development against a Firestore database.</li>
+					      			<li>Worked with Google Storage, IAM and Service accounts.</li>
+					      		</ul>
 			     	</ul>
 	   			</div>
 				 <div class = "col-sm-2">
@@ -79,16 +86,12 @@
 				   		<p>During summer 2017, I was selected to join the PwC Bristol office for a 6 week internship within their Data Assurance services. This was a fantastic experience as I was able to work in a very interesting field with some great individuals.</p>
 				   		<p>I had a lot of exposure to technologies such as:</p>
 				   		 <ul class="list-group">
-					      		<li>Qlik Sense</li>
-					      		<li>Qlik View</li>
+					      		<li>Qlik Sense/View</li>
 					      		<li>Power BI</li>
 					      		<li>R programming language</li>
-					      	
 			     		 </ul>
 			     		<br>
-			     		<p>The main project I was tasked with involved developing a dashboard within Qlik Sense to display utilisation of the Data Assurance team's hours. This meant creating a visually effective display of statistics and key performance indicators.</p>
-			     		<p>This data was based upon the team's chargeable/non chargeable hours, type of clients and the services they were providing. The resulting dashboard made trends clear such as which team members were meeting chargeable hour targets and how the team's resources were being spent.</p>
-			     		
+			     		<p>The main project I was tasked with involved developing a dashboard within Qlik Sense to display utilisation of the Data Assurance team's hours. This meant creating a visually effective display of statistics and key performance indicators.</p>	
 				 </div>
 				 <div class = "col-sm-2">
 			   			<img src = "images/pwc.JPG" alt = "pwc" width="200" height ="150">
@@ -235,7 +238,7 @@
 			     <p class = "features"><strong>Features:</strong></p>
 			     <ul class="list-group">
 		    	 	<li>
-			      		Incorporates controllers for both POST and GET.
+			      		Incorporates controllers for both POST and GET methods.
 			      	</li>
 			      	<li>
 			      		Returns data for multiple users from a single request.
