@@ -58,7 +58,7 @@
 					      	<li>An agile style development methodology. Sprint based work.</li>	
 					      	<li>Regular development against third party web APIs of many types. JSON, REST, XML, SOAP etc.</li>
 					      	<li>Performing code reviews.</li>
-					      	<li>Version control system including Git, Gitlab, SVN.</li>
+					      	<li>Version control systems including Git, Gitlab, SVN.</li>
 					      	<li>Working with continuous deployment systems. Specifically working with Gitlab CI and Jenkins.</li>
 					      	<li>Gradual migration from a monolithic software architecture to microservices.</li>
 					      	<li>Daily use of Jira as a ticketing and issue system.</li>
