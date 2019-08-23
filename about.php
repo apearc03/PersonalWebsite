@@ -54,7 +54,7 @@
 	   				<p>My time here has involved:</p>
 	   				<ul class="list-group">
 					      	<li>Java 8 development.</li>
-					      	<li>The use of Java tools and frameworks such as Maven, Spring boot, Dagger, Feign, JAXB, Mockito, WireMock and JUnit.<li>
+					      	<li>The use of Java tools and frameworks such as Maven, Gradle, Spring Boot, Lombok, Dagger 2, Feign, JAXB, Jackson, Mockito, WireMock and JUnit.<li>
 					      	<li>An agile style development methodology. Sprint based work.</li>	
 					      	<li>Regular development against third party web APIs of many types. JSON, REST, XML, SOAP etc.</li>
 					      	<li>Performing code reviews.</li>
@@ -249,7 +249,6 @@
 			      </ul>	     	
 		    </div>
 			<div class="col-sm-3 darkProj">
-					<h6 id ="recent">*Most recent!</h6>	
 				 	<img src = "images/gramScraper.PNG"  class="img-fluid vid" width="700" height="400" alt="aboutPic">
 		         <div class="row">
 		         	<div class="mx-auto">
