@@ -49,8 +49,9 @@
 	   	<div class = "row">
 	   		<div class = "col-sm-10">
 	   				<h1>Paxport</h1>
-	   				<p><Strong>Junior Software Developer</Strong>  - August 2018 - Present</p>
-	   				<p>I'm currently working as Junior Software Developer at Paxport. Paxport provides a range of software products used in the travel industry. My role is to maintain and develop ‘Find and Book’. Find and Book is the aggregation service that organises many different services from flight, accommodation and ancillary suppliers into one single source. These suppliers include big travel industry entities such as Easyjet, Ryanair and British Airways.</p>
+	   				<p><Strong>Mid level Software Developer</Strong>  - October 2019 - Present</p>
+	   				<p><Strong>Junior Software Developer</Strong>  - August 2018 - October 2019</p>
+	   				<p>I'm currently working as Mid level Software Developer at Paxport. Paxport provides a range of software products used in the travel industry. My role is to maintain and develop ‘Find and Book’. Find and Book is the aggregation service that organises many different services from flight, accommodation and ancillary suppliers into one single source. These suppliers include big travel industry entities such as Easyjet, Ryanair and British Airways.</p>
 	   				<p>My time here has involved:</p>
 	   				<ul class="list-group">
 					      	<li>Java 8 development.</li>
